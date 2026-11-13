@@ -1,0 +1,18 @@
+{
+  "lesson": 66,
+  "application": "Guarded Workflow State Machine",
+  "mode": "offline_teaching_fixture",
+  "status": "complete",
+  "result": {
+    "state": "complete",
+    "history": [
+      "idle",
+      "researching",
+      "writing",
+      "reviewing",
+      "complete"
+    ],
+    "result": "Refund requests are accepted within 30 days."
+  },
+  "measured_cost_usd": null
+}

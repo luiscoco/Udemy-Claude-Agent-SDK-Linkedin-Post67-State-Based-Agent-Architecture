@@ -1,0 +1,16 @@
+{
+  "lesson": 66,
+  "title": "State-Based Agent Architecture",
+  "application": "Guarded Workflow State Machine",
+  "purpose": "Model legal workflow transitions explicitly and reject skipped or repeated states.",
+  "exercise": "Try transition(\"idle\", \"complete\") and inject --fail-stage writing. A failed run must not claim the complete state.",
+  "source_topics": [
+    "00-Arquitectura de agentes basada en estados.png",
+    "01-Why-Model-Workflows-as-States.png",
+    "02-Draw-the-State-Diagram.png",
+    "03-Run-the-States-in-Python.png",
+    "04-Guards-Retries-and-Limits.png",
+    "05-From-State-Machines-to-Graphs.png",
+    "06-Example-A-Research-Run-Trace.png"
+  ]
+}
